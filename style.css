@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: #d1d1d1;
+    padding: 20px 0;
+    /*box-shadow: 10px 5px 5px black;*/
+}
+
+.menu {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+.containerIMG {
+    position: relative;
+  }
+  
+  #image {
+    position: absolute;
+  }
+  
+  #texto {
+    position: absolute;
+    font-size: 32px;
+    left: 1.5%;
+    top: 800px;
+  }
+  .corpo{
+      width: 50%;
+      margin: 0 auto;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+hr{
+    opacity: 70%;
+}
+.esquerda{
+    margin-left: 50px;
+}
+.direita{
+    margin-right: 50px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 20%;
+    background-color: #e0e0e0;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  .footer{
+    background-color: #d1d1d1;
+    width: 100%;
+    height: 100px;
+  }
+  .rodape{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .texrodape{
+      margin-top: 45px;
+  }
