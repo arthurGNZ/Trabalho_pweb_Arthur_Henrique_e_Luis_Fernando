@@ -4,11 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 
 <body>
 
-  <!-- Navbar -->
- 
+  <!-- A fazer:
+  - Arrumar navbar:
+    -> position: fixed;
+    -> Links e hover deles;
+  - Fontes de textos;
+  - Ajustar imagem do hamburguer e posição do texto;  
+  - Ajustar tamanho imagens;
+  -->
+
   <div class='navbar'>
     <div class='menu'>
       <div class='date'>Gourmet au Catering</div>
@@ -19,26 +27,27 @@
       </div>
     </div>
   </div>
+
   <div class="page">
   <header>
     <div class="containerIMG">
       <img id="image" class="imgrande"src="images/hamburger.jpg" alt="hamburger"width="100%" height="30%">
-      <p id="texto">Le Catering</p>
     </div>
-    <img src="images/hamburger.jpg" alt="hamburger" width="100%" height="30%">
+    <p id="texto" class="tituloPlayfair">Le Catering</p>
+    <img src="images/hamburger.jpg" alt="hamburger" width="100%" height="30%" class="imgrande">
   </header>
 </div>
 <div class="corpo">
   <!--Parte 1 corpo-->
   <div class="container">
       <div class="imagem">
-        <img src="images/tablesetting2.jpg">
+        <img src="images/tablesetting2.jpg" class="pratos">
       </div>
       <div class="texto esquerda">
-          <h1 id="about"align="center">About Catering</h1><br>
-          <h2 align="center">Tradition since 1889</h2><br>
-          <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p><br>
-          <p class="cinza">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h1 class="tituloPlayfair" id="about"align="center">About Catering</h1><br>
+          <h2 class="subtituloPlayfair" align="center">Tradition since 1889</h2><br>
+          <p class="paragrafo">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <em>seasonal</em> ingredients.</p><br>
+          <p class="comentario">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
        </div>
   </div>
 <hr>
@@ -46,23 +55,24 @@
   <div class="container">
 
     <div class="texto direita">
-        <h1 id="menu"align="center">Our Menu</h1><br>
-        <h2>Bread Basket</h2>
-        <p class="cinza">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-        <h2>Honey Almond Granola with Fruits</h2>
-        <p class="cinza">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
-        <h2>Belgian Waffle</h2>
-        <p class="cinza">Vanilla flavored batter with malted flour 7.50</p><br>
-        <h2>Scrambled eggs</h2>
-        <p class="cinza">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-        <h2>Blueberry Pancakes</h2>
-        <p class="cinza">With syrup, butter and lots of berries 8.50</p><br>
+        <h1 class="tituloPlayfair" id="menu"align="center">Our Menu</h1><br>
+        <h2 class="subtitulo">Bread Basket</h2>
+        <p class="produtos">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+        <h2 class="subtitulo">Honey Almond Granola with Fruits</h2>
+        <p class="produtos">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+        <h2 class="subtitulo">Belgian Waffle</h2>
+        <p class="produtos">Vanilla flavored batter with malted flour 7.50</p><br>
+        <h2 class="subtitulo">Scrambled eggs</h2>
+        <p class="produtos">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+        <h2 class="subtitulo">Blueberry Pancakes</h2>
+        <p class="produtos">With syrup, butter and lots of berries 8.50</p><br>
      </div>
          <div class="imagem">
-      <img src="images/tablesetting.jpg">
+      <img src="images/tablesetting.jpg" class="pratos">
     </div>
 </div>
-<h1 id="contact">Contact</h1>
+<hr>
+<h1 class="tituloPlayfair" id="contact">Contact</h1>
 <br>
 <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p> <br>
 
