@@ -180,11 +180,14 @@ a:hover{
     font-size: 18px;
     padding: 0px 8px;
 }
+.tudo{
+    align-items: center;
+}
 .header-container{
     background-image: url("images/hamburger.jpg");
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    
 }
 .header {
     width: 100%;
